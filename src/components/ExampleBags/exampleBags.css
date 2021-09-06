@@ -1,0 +1,40 @@
+.exmaple-bags {
+  margin-top: 8vh;
+}
+.exmaple-bags h5 {
+  margin-bottom: 5vh;
+  color: #8e8e8e;
+}
+.bags {
+  display: flex;
+  justify-content: center;
+}
+.bags img {
+  width: 413px;
+  height: 346px;
+  margin: 0 1vw;
+}
+@media screen and (max-width: 1600px) {
+  .bags img {
+    width: 60%;
+    height: 50%;
+    margin: 0 1vw;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .bags {
+    flex-wrap: wrap;
+  }
+  .bags img {
+    margin: 2vh 1vw;
+    width: 413px;
+    height: 346px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .bags img {
+    margin: 1vh 1vw;
+    width: 303px;
+    height: 246px;
+  }
+}

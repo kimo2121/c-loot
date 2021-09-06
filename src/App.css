@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+.home-background {
+  background-image: url("/src/assets/images/background.png");
+  background-size: 100% 120%;
+  height: 100%;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  position: fixed;
+  left: 0;
+  z-index: -1;
+  top: 0;
+  background-color: #1a1a1a;
+  right: 0;
+}

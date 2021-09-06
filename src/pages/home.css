@@ -1,0 +1,35 @@
+.home {
+  width: 50%;
+  margin: 5vh auto;
+}
+.home h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 300;
+}
+.home-links a {
+  text-decoration: none;
+  color: white;
+  margin: 0 3vw;
+}
+.home p {
+  color: #8e8e8e;
+}
+.home span {
+  display: block;
+  margin-top: 5vh;
+  color: #8e8e8e;
+}
+.home span a {
+  color: #8e8e8e;
+}
+@media screen and (max-width: 1024px) {
+  .home h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home h1 {
+    font-size: 24px;
+  }
+}

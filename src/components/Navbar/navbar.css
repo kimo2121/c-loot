@@ -1,0 +1,85 @@
+.navbar {
+  display: flex;
+  padding: 3vh 15vw;
+  font-size: 30px;
+  justify-content: space-between;
+}
+.logo {
+  color: white;
+}
+.nav-links a {
+  color: #838383;
+  font-size: 26px;
+  text-decoration: none;
+}
+.slide-menu {
+  display: none;
+}
+.menu-content {
+  position: fixed;
+  top: 0;
+  transition: all 0.7s;
+  left: -100%;
+  display: block;
+  height: 100vh;
+  z-index: 10000;
+  width: 300px;
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+}
+.slide-menu-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 5vw;
+  margin-top: 3vh;
+}
+.menu-content h3 {
+  color: white;
+}
+.menu-content.active {
+  left: 0;
+  top: 0;
+}
+.slider-links {
+}
+.slider-links a {
+  display: block;
+  color: #838383;
+  margin: 0;
+  text-decoration: none;
+}
+.content-x-icon {
+  fill: white;
+  width: 20px;
+  height: 20px;
+  margin-left: 85%;
+  margin-top: 4vh;
+}
+@media screen and (max-width: 1024px) {
+  .logo {
+    font-size: 30px;
+  }
+  .navbar {
+    padding: 3vh 5vw;
+  }
+  .nav-links {
+    display: none;
+  }
+  .slide-menu {
+    display: block;
+  }
+  .external-link {
+    right: 39vw;
+    margin-top: 200px;
+  }
+  .external-link svg {
+    width: 35px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 24px;
+  }
+}
