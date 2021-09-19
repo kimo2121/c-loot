@@ -2,9 +2,10 @@
   width: 50%;
   margin: 5vh auto;
 }
-.home h1 {
+.home-header,
+.mint-btn {
   color: white;
-  font-size: 48px;
+  font-size: 64px;
   font-weight: 300;
 }
 .home-links a {
@@ -23,13 +24,22 @@
 .home span a {
   color: #8e8e8e;
 }
+.mint-btn {
+  font-size: 52px;
+}
 @media screen and (max-width: 1024px) {
-  .home h1 {
+  .home-header {
+    font-size: 42px;
+  }
+  .mint-btn {
     font-size: 30px;
   }
 }
 @media screen and (max-width: 768px) {
-  .home h1 {
-    font-size: 24px;
+  .home-header {
+    font-size: 26px;
+  }
+  .mint-btn {
+    font-size: 20px;
   }
 }
